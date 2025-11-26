@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "count-files": "find . -type f -not -path '*/node_modules/*' -not -path '*/.git/*' | wc -l"
   },
   "dependencies": {
     "next": "16.0.4",
